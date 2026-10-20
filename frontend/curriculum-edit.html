@@ -180,7 +180,7 @@
 
       async function load() {
         try {
-          entries = await fetchCurriculum(CURRICULUM_ID, authHeaders());
+          entries = await fetchCurriculum(CURRICULUM_ID);
           $('course-select').innerHTML = '';
           entries.forEach(x => {
             const c = x.course || x, o = document.createElement('option');
