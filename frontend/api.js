@@ -1,5 +1,5 @@
 // เปลี่ยน URL นี้เป็น API Gateway endpoint จริงหลัง deploy
-export const API_BASE = 'https://s98zfaauq3.execute-api.us-east-1.amazonaws.com';
+export const API_BASE = 'https://ju7voclubd.execute-api.us-east-1.amazonaws.com/prod';
 
 // รหัสหลักสูตรเริ่มต้น (คอมพิวเตอร์ประยุกต์)
 export const CURRICULUM_ID = '11111111-1111-1111-1111-111111111111';
